@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Home.css';
 import HeroSlider from '../../component/HeroSlider';
 import { useState } from 'react';
-import SlideProduct from './../../component/slideproducts/slideProduct'
+import SlideProduct from "./../../component/slideproducts/SlideProduct";
 import SlideProductLoading from '../../component/slideproducts/SlideProductLoading';
   const categories = [
     "smartphones",

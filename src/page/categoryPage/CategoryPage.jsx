@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 // import Product from './../../component/slideproducts/Product'
-import Product from '../../component/slideproducts/product'
+import Product from '../../component/slideproducts/Product'
 
 export default function CategoryPage() {
     const {category} = useParams()

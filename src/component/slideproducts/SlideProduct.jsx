@@ -1,6 +1,6 @@
 import React from 'react'
 import './slideProduct.css'
-import Product from './product'
+import Product from './Product'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { Autoplay, Pagination } from 'swiper/modules';
 
-export default function slideProduct({data,title}) {
+export default function SlideProduct({data,title}) {
     console.log(data);
   return (
     <div className='slide-products slide'>

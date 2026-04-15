@@ -9,9 +9,9 @@ import { FaRegHeart } from "react-icons/fa6";
 import { FaShare } from "react-icons/fa";
 
 import "./ProductDetails.css";
-import SlideProduct from "./../../../component/slideproducts/slideProduct";
+import SlideProduct from "./../../../component/slideproducts/SlideProduct.jsx";
 import ProductDetailsLoading from "./ProductDetailsLoading";
-export default function ProductDetails({item}) {
+export default function ProductDetails() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);

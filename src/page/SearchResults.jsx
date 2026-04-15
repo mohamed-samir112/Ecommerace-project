@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
-import Product from '../component/slideproducts/Product.jsx'
+import Product from '../component/slideproducts/Product'
 
 export default function SearchResults() {
   const [results, setResults] = useState([])

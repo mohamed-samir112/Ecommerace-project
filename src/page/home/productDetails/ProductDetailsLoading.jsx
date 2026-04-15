@@ -1,5 +1,5 @@
 import React from 'react'
-import "./productDetails.css"
+import "./ProductDetails.css"
 
 export default function ProductDetailsLoading() {
   return (
