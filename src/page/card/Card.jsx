@@ -2,7 +2,7 @@ import React from 'react'
 import { useContext } from 'react'
 import { CardContext } from './../../component/context/CardContext';
 import { MdDeleteForever } from "react-icons/md";
-import "./Card.css"
+import "./card.css"
 export default function Card() {
     const {cardItems, increaseQuantity,decreaseQuantity,removeFromCard} = useContext(CardContext)
     const total = cardItems.reduce((acc,item)=>acc + item.price * item.quantity,0)

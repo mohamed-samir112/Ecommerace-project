@@ -11,7 +11,6 @@ import { FaShare } from "react-icons/fa";
 import "./ProductDetails.css";
 import SlideProduct from "./../../../component/slideproducts/slideProduct";
 import ProductDetailsLoading from "./ProductDetailsLoading";
-import { CardContext } from './../../../component/context/CardContext';
 export default function ProductDetails({item}) {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
