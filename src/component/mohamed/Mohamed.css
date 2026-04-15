@@ -1,0 +1,12 @@
+.mohamed{
+    display: flex;
+    align-items: center ;
+    width:100% ;
+    justify-content: center;
+    padding: 20px 0px;
+    border: 1px solid gainsboro;
+    margin-bottom: 40px;
+ }
+.mohamed h2{
+    font-weight: bold;
+}

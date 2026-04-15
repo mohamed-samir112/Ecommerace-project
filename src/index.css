@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}                                      
+:root{
+    --main-color:#16a34a;
+    --p-color:#7b7b7b;
+    --bg-color:#f3f3f3;
+    --white-color:#fff;
+    --color-heading:#253237;
+    --border-color:#d6d6d6d5;
+}
+body{
+    background:var(--white-color);
+    font-family: "Inter", sans-serif;
+    padding-top: 200px;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--color-heading);
+    font-family: "DM Sans", sans-serif;
+}
+span{
+    color: var(--main-color);
+}
+p{
+    color: var(--p-color);
+
+}
+input,button ,select,textarea{
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-heading);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1350px;
+}
+.btn{
+    padding: 10px 18px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    cursor: pointer;
+    background: var(--main-color);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: 0.3s;
+    width: max-content;
+    border-radius: 30px;
+    color: var(--white-color);
+
+}
+.btn:hover{
+    scale: 1.1;
+
+}
+
+/* loading  */
+
+
+
+
+
+
+.skeltion{
+    background-color: #e2e5e7;
+    background-image: linear-gradient(90deg,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0),
+    );
+    background-size: 40px 100%;
+    background-position: left -40px top 0;
+    animation: shine ease infinite;
+}
+@keyframes shine{
+    to{
+        background-position: right -40px top  0;
+    }
+}
+
+
